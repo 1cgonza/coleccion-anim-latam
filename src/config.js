@@ -59,14 +59,14 @@ export const BASEROW = {
   // Este token estará visible en GitHub. Para proyectos educativos
   // sin datos sensibles está bien, pero SIEMPRE configura el token
   // con permisos de solo LECTURA en Baserow.
-  token: import.meta.env.VITE_BASEROW_TOKEN || 'F9f9QIYJHx1ALf6USPuLtOeG7Ub9Cc3e',
+  token: import.meta.env.VITE_BASEROW_TOKEN || 'S8PYoe88MJ1CtwLwsFc4TIDizTuNTQSU',
 
   // El ID de tu base de datos Baserow
   // Cómo conseguirlo:
   // 1. Ve a tu base de datos en Baserow
   // 2. Mira la URL en el navegador: /database/[ID]/
   // 3. El [ID] es lo que necesitas aquí
-  idBaseDatos: 364668,
+  idBaseDatos: 365482,
 };
 
 // =====================================================
@@ -78,12 +78,12 @@ export const BASEROW = {
 export const TABLA_PROYECTOS = {
   // El ID de la tabla en Baserow
   // Cómo conseguirlo: Ve a tu tabla, el URL es /database/[DB_ID]/table/[TABLE_ID]/
-  id: 825354,
+  id: 826873,
 
   // Los nombres de los campos en tu tabla
   // (deben coincidir exactamente con los nombres en Baserow)
   campos: {
-    titulo: 'Título', // Campo que contiene el título del proyecto
+    titulo: 'Letras', // Campo que contiene el título del proyecto
     descripcion: 'Descripción', // Campo que contiene la descripción
     imagen: 'Imagen', // Campo que contiene la URL de la imagen
     enlace: 'Enlace', // Campo que contiene un enlace externo
